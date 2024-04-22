@@ -398,7 +398,7 @@ i {
     position: relative; }
     #featureSection .img-box img {
       border-radius: 10px;
-      filter: grayscale(100%);
+      
       transition: .4s; }
     #featureSection .img-box .img01 {
       display: block;
@@ -418,8 +418,6 @@ i {
     background: #fb383b;
     top: 0;
     left: 0;
-    height: 250px;
-    width: 15px;
     border-radius: 10px; }
   #featureSection .part2 {
     display: flex;
@@ -559,7 +557,7 @@ i {
       overflow: hidden;
       border-radius: 10px; }
       #portfolioSection .portfolio-box .img-box img {
-        filter: grayscale(100%);
+        
         transition: .4s; }
       #portfolioSection .portfolio-box .img-box .img-fluid {
         width: -webkit-fill-available !important;
@@ -703,8 +701,8 @@ i {
   #specialFeature .sec-header {
     margin-bottom: 50px; }
     #specialFeature .sec-header h2 {
-      color: #222429;
-      margin-bottom: 30px; }
+      color: red;
+      margin-top: 30px; }
       #specialFeature .sec-header h2 span {
         color: #fb383b; }
     #specialFeature .sec-header p {
@@ -719,9 +717,9 @@ i {
       overflow: hidden;
       border-radius: 10px; }
       #specialFeature .service-box .img-box img {
-        width: 100%;
+        width: 316px;
+        height: 211px;
         border-radius: 10px;
-        filter: grayscale(100%);
         transition: .4s; }
     #specialFeature .service-box .txt-box {
       background: #222429;
@@ -814,7 +812,7 @@ i {
     #featureDetails .img-box img {
       width: 100%;
       border-radius: 10px;
-      filter: grayscale(100%);
+      height: 400px;
       transition: .4s; }
   #featureDetails .img-box:hover img {
     filter: grayscale(0%); }
@@ -926,7 +924,7 @@ i {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  filter: grayscale(100%); }
+   }
   #workSection .overlay {
     background: rgba(34, 34, 34, 0.7);
     padding: 80px 0; }
@@ -1043,16 +1041,17 @@ i {
   .about-img img{
       width: 100%;
   }
-  .about-text{
-      padding-top: 20%;
-  }
   .about-text h2{
       color: black;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 50px;
   }
+  .about-text h4{
+    color: red;
+    font-family: 'Rubik', sans-serif;
+}
   .about-text p{
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 18px;
       color: black;
   }
@@ -1376,4 +1375,7 @@ i {
       width: 90%;
       margin-right: 0px; }
     #featureSection .col-lg-7 .img-box .img02 {
-      width: 90%; } }
+      width: 90%; } 
+    #featureSection .col-lg-7 .img-box .img03 {
+      width: 90%;
+      margin-left: 0px; } }
